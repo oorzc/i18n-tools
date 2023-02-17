@@ -31,3 +31,5 @@ module.exports = {
 }
 ```
 ## BUG反馈
+
+[github](https://github.com/oorzc/i18n-tools/issues)
