@@ -15,13 +15,15 @@ i18n-tools 提供一键扫描中文、提取文案、文案回显、翻译、支
 - 支持文案回显
 ![](https://qiniu.sponges.cn/note/2023/02/17/20230217234638.png)
 - 支持全量翻译、增量翻译，默认增量翻译（目前使用百度和腾讯翻译）
-![](https://qiniu.sponges.cn/note/2023/02/17/20230217235023.png)
 ![](https://qiniu.sponges.cn/note/2023/02/17/20230217234904.png)
 - 支持command/ctrl + 点击翻译函数内的 key, 跳转到 key 在json 文件中对应的位置
 ![](https://qiniu.sponges.cn/note/2023/02/17/20230217234532.gif)
 注意：目前适合vue2，js和ts文件提取（vue3、react暂不支持，会不定期更新）
 
-## 配置
+## 插件配置
+![](https://qiniu.sponges.cn/note/2023/02/17/20230217235023.png)
+
+## 项目配置
 
 系统会自动在根目录生成项目配置文件, 当然你也可以在项目文件夹下创建 `i18n-tools.config.js` 文件, 按下面的配置修改你的自定义配置
 
