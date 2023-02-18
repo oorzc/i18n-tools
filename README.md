@@ -1,5 +1,7 @@
 # i18n-tools 国际化多语言插件
 
+[插件地址](https://marketplace.visualstudio.com/items?itemName=oorzc.i18n-tools-plus)
+
 ## 介绍
 
 i18n-tools 提供一键扫描中文、提取文案、文案回显、翻译、支持代码跳转等功能，帮助快速生成多语言应用。
@@ -7,16 +9,16 @@ i18n-tools 提供一键扫描中文、提取文案、文案回显、翻译、支
 ## 功能
 
 - 支持一键提取文件或目录内包含中文内容的文件
-![](http://qiniu.sponges.cn/note/2023/02/17/20230217234155.gif)
+![](https://qiniu.sponges.cn/note/2023/02/17/20230217234155.gif)
 - 支持一键还原文件为中文显示
-![](http://qiniu.sponges.cn/note/2023/02/17/20230217234407.gif)
+![](https://qiniu.sponges.cn/note/2023/02/17/20230217234407.gif)
 - 支持文案回显
-![](http://qiniu.sponges.cn/note/2023/02/17/20230217234638.png)
+![](https://qiniu.sponges.cn/note/2023/02/17/20230217234638.png)
 - 支持全量翻译、增量翻译，默认增量翻译（目前使用百度和腾讯翻译）
-![](http://qiniu.sponges.cn/note/2023/02/17/20230217235023.png)
-![](http://qiniu.sponges.cn/note/2023/02/17/20230217234904.png)
+![](https://qiniu.sponges.cn/note/2023/02/17/20230217235023.png)
+![](https://qiniu.sponges.cn/note/2023/02/17/20230217234904.png)
 - 支持command/ctrl + 点击翻译函数内的 key, 跳转到 key 在json 文件中对应的位置
-![](http://qiniu.sponges.cn/note/2023/02/17/20230217234532.gif)
+![](https://qiniu.sponges.cn/note/2023/02/17/20230217234532.gif)
 注意：目前适合vue2，js和ts文件提取（vue3、react暂不支持，会不定期更新）
 
 ## 配置
