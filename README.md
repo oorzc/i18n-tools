@@ -59,11 +59,13 @@ module.exports = {
       exclude: ['src/locales'], // 不提取的文件夹, 默认是 ['src/locales']
       extensions: ['.vue', '.js', '.ts'], // 提取的文件后缀名，默认是 ['.js', '.vue', '.ts']
       filename: 'zh_cn', // 输出的文件名,默认为 zh_cn
-      extname: 'js', //  输出的文件后缀名,支持json和js（js需要符合CommonJS模块化规范，不支持ES6模块化，格式 module.exports = {}，输出后使用require加载文件），默认为 js  
+      extname: 'js', //  输出的文件后缀名默认为 js  ,支持json和js（js格式为 module.exports = {} 或 export default {}），
       langList: ['en'] // 翻译目标语言列表，默认是 ['en']   具体语种请自行查看。百度支持https://api.fanyi.baidu.com/doc/21，腾讯支持：en（英语）、ja（日语）、ko（韩语）、fr（法语）、es（西班牙语）、it（意大利语）、de（德语）、tr（土耳其语）、ru（俄语）、pt（葡萄牙语）、vi（越南语）、id（印尼语）、th（泰语）、ms（马来语）注意：使用不同的翻译接口，需要更换对应的语言编码
 }
 ```
 
 ## BUG反馈
+
+请附上相关代码片段
 
 [Github](https://github.com/oorzc/i18n-tools/issues)
